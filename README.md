@@ -2,7 +2,7 @@
 
 API REST sécurisée avec authentification JWT pour la gestion de produits.
 
-## 🛠️ Stack Technique
+##  Stack Technique
 
 - **Node.js** - Runtime JavaScript
 - **Express** - Framework web
@@ -13,7 +13,7 @@ API REST sécurisée avec authentification JWT pour la gestion de produits.
 - **Express-validator** - Validation des données
 - **CORS** - Gestion cross-origin
 
-## 📦 Installation
+##  Installation
 
 ```bash
 npm install
@@ -28,12 +28,12 @@ Créez un fichier `.env` à partir de `.env.example` :
 
 ```env
 PORT=5000
-MONGODB_URI=mongodb+srv://username:password@cluster.mongodb.net/woora-products
+MONGODB_URI=mongodb+srv://aiwasenaiziath_db_user:20LXOaSy1K7aqvSr@cluster0.ujketp0.mongodb.net/woora-products?retryWrites=true&w=majority
 JWT_SECRET=votre_cle_secrete
 JWT_EXPIRE=7d
 ```
 
-## 📡 Routes API
+##  Routes API
 
 ### Authentification
 - `POST /api/auth/register` - Inscription
@@ -49,7 +49,7 @@ JWT_EXPIRE=7d
 - `PUT /api/products/:id` - Modifier un produit (protégé)
 - `DELETE /api/products/:id` - Supprimer un produit (protégé)
 
-## 🔒 Sécurité
+##  Sécurité
 
 - Hash des mots de passe avec Bcrypt (10 rounds)
 - Authentification JWT avec expiration configurable
@@ -57,7 +57,7 @@ JWT_EXPIRE=7d
 - Protection des routes avec middleware d'authentification
 - Isolation des données par utilisateur
 
-## 🚀 Déploiement
+## Déploiement
 
 Ce backend peut être déployé sur :
 - **Railway** (recommandé)
